@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(to right,rgb(215, 219, 205),rgb(205, 212, 196),rgb(219, 216, 199),rgb(214, 211, 192));
+}
+
 #banner img{
     width: 100%;
     height: auto;
