@@ -109,7 +109,7 @@
 
             var x = document.getElementById("sticky_navbar");
 
-            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            if (document.body.scrollTop > 54 || document.documentElement.scrollTop > 54) {
                 // document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
                 x.style.display = "flex";
                 x.style.position = "fixed";
@@ -118,6 +118,9 @@
                 x.style.justifyContent = "space-around";
                 x.style.width = "100%";
                 x.style.height = "8vh";
+                x.style.transform = "translateX(80px)";
+                x.style.top = "0";
+                x.style.left = "-80";
             } else {
                 // document.getElementById("sticky_navbar").className = "";
                 x.style.display = "none";
