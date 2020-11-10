@@ -42,7 +42,7 @@
         </div>
     </nav>
 
-    <div id="sticky_navbar" style="position: sticky;">
+    <div id="sticky_navbar">
         <div class="logo">
             <h4 class="s">S</h4>
             <h4 class="a">AARTHI</h4>
@@ -107,7 +107,8 @@
 
         function myFunction() {
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
+                // document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
+                
             } else {
                 document.getElementById("sticky_navbar").className = "";
             }
