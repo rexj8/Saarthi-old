@@ -138,11 +138,11 @@ nav {
   }
 
 
-  nav>.sliding-banner {
+#sticky-navbar {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     min-height: 8vh;
+    position:fixed;
     background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
     position:sticky;
 }

@@ -42,7 +42,7 @@
         </div>
     </nav>
 
-    <div class="sliding-banner">
+    <div id="sticky-navbar">
         <div class="logo">
             <h4 class="s">S</h4>
             <h4 class="a">AARTHI</h4>
@@ -100,6 +100,20 @@
 
         navSlide();
         // ----------------------------------------------------------------------------------------------------------------------------
+
+
+        // ---------------------------------Sticky Navbar------------------------------------------------------------------------------
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("myP").className = "test";
+            } else {
+                document.getElementById("myP").className = "";
+            }
+        }
+        // ----------------------------------------------------------------------------------------------------------------------------
+
 
     </script>
 <!-- =================================================================================================================================================     -->
