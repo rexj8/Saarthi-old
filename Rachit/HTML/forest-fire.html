@@ -106,6 +106,9 @@
         window.onscroll = function() {myFunction()};
 
         function myFunction() {
+            
+            var x = document.getElementById("sticky_navbar");
+
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 // document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
                 x.style.display = "flex";
