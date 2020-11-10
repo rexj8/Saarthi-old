@@ -143,7 +143,8 @@ nav {
     justify-content: center;
     min-height: 8vh;
     position:fixed;
-    background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
+    /* background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192)); */
+    background: linear-gradient(to right,rgb(215, 219, 205),rgb(205, 212, 196),rgb(203, 207, 192),rgb(190, 193, 174));
     z-index:20;
 }
 
