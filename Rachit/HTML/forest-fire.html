@@ -108,9 +108,10 @@
         function myFunction() {
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 // document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
-                
+                x.style.display = "flex";
             } else {
-                document.getElementById("sticky_navbar").className = "";
+                // document.getElementById("sticky_navbar").className = "";
+                x.style.display = "none";
             }
         }
         // ----------------------------------------------------------------------------------------------------------------------------
