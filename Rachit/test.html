@@ -7,33 +7,12 @@
 
     <style>
         #sticky_navbar{
-            /* position:sticky; */
-            /* display:none; */
-            overflow: hidden;
+            display:none;
         }
         .sticky-navbar-properties {
-            display:flex;
-            min-height:8vh;
-            background: linear-gradient(to right,rgba(225, 226, 210, 0.95),rgb(224, 223, 203, 0.95),rgb(219, 216, 199, 0.95),rgb(214, 211, 192, 0.95));
-            position:fixed;
-            transition:5s ease-in-out;
+            display:block;
         }
 
-        .logo .s{
-            display:inline-block;
-            font-family: "papyrus";
-            color: rgb(121, 71, 6);
-            letter-spacing: -4px;
-            font-size: 45px;
-            font-style: italic;
-        }
-        .logo .a{
-            display: inline;
-            /* font-family: "papyrus"; */
-            color: rgb(121, 71, 6);
-            letter-spacing: 5px;
-            font-size: 22px;
-        }
     </style>
 </head>
 <body>
@@ -54,10 +33,15 @@
         window.onscroll = function() {myFunction()};
 
         function myFunction() {
+
+            var x = document.getElementById("sticky_navbar");
+
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
+                // document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
+                x.style.display = "block";
             } else {
                 document.getElementById("sticky_navbar").className = "";
+                x.style.display = "none";
             }
         }
     </script>
