@@ -15,7 +15,6 @@ nav {
     /* position:fixed; */
 }
 
-
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
@@ -137,3 +136,31 @@ nav {
     width: 100%;
     transition: width 0.3s;
   }
+
+
+  nav>.sliding-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    /* background-color: #5D4954; */
+    background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
+    position:sticky;
+}
+
+
+.logo .s{
+    display:inline-block;
+    font-family: "papyrus";
+    color: rgb(121, 71, 6);
+    letter-spacing: -4px;
+    font-size: 45px;
+    font-style: italic;
+}
+.logo .a{
+    display: inline;
+    /* font-family: "papyrus"; */
+    color: rgb(121, 71, 6);
+    letter-spacing: 5px;
+    font-size: 22px;
+}
