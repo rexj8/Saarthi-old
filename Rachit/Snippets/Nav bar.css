@@ -139,10 +139,10 @@ nav {
 
 
 #sticky_navbar {
-    display: flex;
+    display: none;
     justify-content: center;
     min-height: 8vh;
-    position:sticky;
+    position:fixed;
     background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
     z-index:20;
 }
