@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #sticky-navbar-properties {
+    display: flex;
+    justify-content: center;
+    min-height: 8vh;
+    position:sticky;
+    /* background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192)); */
+}
+
+.logo .s{
+    display:inline-block;
+    font-family: "papyrus";
+    color: rgb(121, 71, 6);
+    letter-spacing: -4px;
+    font-size: 45px;
+    font-style: italic;
+}
+.logo .a{
+    display: inline;
+    /* font-family: "papyrus"; */
+    color: rgb(121, 71, 6);
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+    </style>
+</head>
+<body>
+    
+    <div id="sticky_navbar" style="position: sticky;">
+        <div class="logo">
+            <h4 class="s">S</h4>
+            <h4 class="a">AARTHI</h4>
+        </div>
+    </div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
+    } else {
+        document.getElementById("sticky_navbar").className = "";
+    }
+}
+    </script>
+</body>
+</html>
