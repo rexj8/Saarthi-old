@@ -11,7 +11,29 @@
         }
         .sticky-navbar-properties {
             display:block;
+    background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
+    min-height: 8vh;
+    justify-content: space-around;
+    align-items: center;
         }
+
+
+        .logo .s{
+    display:inline-block;
+    font-family: "papyrus";
+    color: rgb(121, 71, 6);
+    letter-spacing: -4px;
+    font-size: 45px;
+    font-style: italic;
+}
+.logo .a{
+    display: inline;
+    /* font-family: "papyrus"; */
+    color: rgb(121, 71, 6);
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
 
     </style>
 </head>
@@ -38,7 +60,16 @@
 
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 // document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
-                x.style.display = "block";
+                x.style.display = "flex";
+                x.style.position = "fixed";
+                x.style.background = "linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192))";
+                x.style.width = "100%";
+                x.style.height = "8vh";
+                x.style.margin = "0";
+                x.style.padding = "0";
+                x.style.boxSizing = "border_box";
+                x.style.alignContent = "center";
+                x.style.justifyContent = "space-around";
             } else {
                 document.getElementById("sticky_navbar").className = "";
                 x.style.display = "none";
