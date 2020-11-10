@@ -7,12 +7,15 @@
 
     <style>
         #sticky_navbar{
-            position:fixed;
+            /* position:sticky; */
+            display:none;
         }
         .sticky-navbar-properties {
+            display:flex;
             min-height:8vh;
-            background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
-            /* position:fixed; */
+            background: linear-gradient(to right,rgba(225, 226, 210, 0.95),rgb(224, 223, 203, 0.95),rgb(219, 216, 199, 0.95),rgb(214, 211, 192, 0.95));
+            position:fixed;
+            transition:5s ease-in-out;
         }
 
         .logo .s{
