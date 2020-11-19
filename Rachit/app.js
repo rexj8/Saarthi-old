@@ -26,7 +26,7 @@ particlesJS('fire-flames',
         "value": ["#FFAA00" , "#FFE700" ,"#FF7B00","#FFDAB8","#FFED9E"]
       },
       "shape": {
-        "type": ["triangle","polygon"],
+        "type": ["triangle","polygon",],
         "stroke": {
           "width": 0,
           "color": "#FFDC00"
