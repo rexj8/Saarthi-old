@@ -132,3 +132,7 @@ ul{
     list-style-position: outside;
 }
 
+.ruler{
+    border-top: 1px solid grey;
+}
+
