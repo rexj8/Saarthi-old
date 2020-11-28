@@ -126,6 +126,7 @@ body{
         float:left;
         width:18%;
         margin-top: 70px;
+        margin-bottom: 20px;
         padding-left: 1%;
     }
     
@@ -224,5 +225,5 @@ iframe{
     width:"420";
     height:"345";
 
-    float: clear;
+    float: both;
 }
