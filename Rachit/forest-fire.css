@@ -126,6 +126,7 @@ text-align: justify;
 color:rgb(31, 29, 29);
 font-family :Lato, sans-serif;
 line-height: 180%;
+float:right;
 }
 
 ul{
@@ -137,4 +138,6 @@ ul{
     border:none;
     background:  rgb(90, 90, 90);
 }
+
+
 
