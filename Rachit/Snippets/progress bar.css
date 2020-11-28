@@ -20,7 +20,8 @@
     height: 100%;
     background: linear-gradient(to top, #552a01, #a06000, #e08b28);
     z-index: 50;
-    border-radius: 17px;
+    border-radius: 0px 0px 20px 20px;
+    
   }
   
   #progressbar:before {

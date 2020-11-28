@@ -130,7 +130,7 @@ body{
     overflow-x: hidden;
     padding: 8px 0;
     float:left;
-    width:190px;
+    width:160px;
 }
 
 .side-bar a {
@@ -157,7 +157,7 @@ float: right;
 .v-ruler:after {
     border-left: 6px solid rgb(121, 71, 6);
     /* background-color: #000; */
-    position: absolute;
+    /* position: absolute; */
     width: 5px;
     height: 300px;
     top: 10px;
@@ -173,11 +173,11 @@ float: right;
     font-family :Lato, sans-serif;
     line-height: 180%;
     background-color: red;
-    margin-left: 280px; 
-    margin-right: 15px;
+    margin-left: 80px; 
+    margin-right: 0px;
     padding: 0px 30px;
     float:right;
-    width:60%;
+    width:78%;
 }
 
 ul{
