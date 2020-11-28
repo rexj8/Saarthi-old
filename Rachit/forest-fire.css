@@ -152,19 +152,8 @@ body{
     border-left: 2px solid rgb(121, 71, 6);
     height: 500px;
     float:left;
-    margin-left: 7%;
+    margin-left: 1%;
 }
-
-/* .v-ruler:after {
-    border-left: 6px solid rgb(121, 71, 6);
-    background-color: #000;
-    position: absolute;
-    width: 5px;
-    height: 300px;
-    top: 10px;
-    left: 12%;
-    display: block;
-} */
 
 .content {
     /* margin: 20px; */
