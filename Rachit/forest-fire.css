@@ -143,8 +143,7 @@ body{
 }
 
 .side-bar a:hover {
-color: rgb(121, 71, 6);
-float: right;
+    color: rgb(121, 71, 6);
 }
 
 /* .v-ruler{
@@ -152,6 +151,7 @@ float: right;
     height: 500px;
     left:15px;
     top:20px;
+    float: right;
 } */
 
 .v-ruler:after {
@@ -163,7 +163,7 @@ float: right;
     top: 10px;
     left: 50%;
     display: block;
-  }
+}
 
 .content {
     /* margin: 20px; */
