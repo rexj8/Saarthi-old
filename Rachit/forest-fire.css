@@ -176,16 +176,16 @@ body{
 }
 
 @media screen and (max-width:767px) {
-    /* .side-bar{
+    .side-bar{
         overflow-x: hidden;
         padding: 8px 0;
         float:left;
         width:18%;
         margin-top: 70px;
         padding-left: 1%;
-    } */
+    }
     
-    /* .side-bar a {
+    .side-bar a {
         padding: 6px 8px 6px 42px;
         text-decoration: none;
         font-size: 15px;
@@ -193,7 +193,7 @@ body{
         display: block;
         font-family :Lato, sans-serif;
         font-size: 1.2em;
-    } */
+    }
     
     .side-bar a:hover {
         color: rgb(121, 71, 6);
@@ -212,8 +212,6 @@ body{
         margin-right: 0px;
         margin-top: 50px;
         padding: 0px 30px;
-        float:right;
-        width:80%;
     }
     
     .content h1{
