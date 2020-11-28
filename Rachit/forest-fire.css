@@ -140,6 +140,7 @@ body{
     
     .side-bar a:hover {
         color: rgb(121, 71, 6);
+        text-decoration: underline;
     }
     
     .v-ruler{
