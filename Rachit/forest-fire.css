@@ -137,7 +137,11 @@ body{
     font-size: 25px;
     color: #2196F3;
     display: block;
-  }
+}
+
+.sidenav a:hover {
+color: #064579;
+}
 
 .v-ruler{
     border-left: 6px solid rgb(121, 71, 6);
