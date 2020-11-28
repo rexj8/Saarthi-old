@@ -223,4 +223,6 @@ ul{
 iframe{
     width:"420";
     height:"345";
+
+    float: clear;
 }
