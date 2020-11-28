@@ -119,11 +119,25 @@ body{
     }
 }
   
-.side{
+.side-bar{
     background-color: blue;
-    float:left;
-    width: 10%;
+    width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
 }
+
+.side-bar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
 
 .v-ruler{
     border-left: 6px solid rgb(121, 71, 6);
@@ -137,8 +151,6 @@ text-align: justify;
 color:rgb(31, 29, 29);
 font-family :Lato, sans-serif;
 line-height: 180%;
-float:right;
-width: 68%;
 background-color: red;
 }
 
