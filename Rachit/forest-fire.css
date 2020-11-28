@@ -146,24 +146,22 @@ body{
     color: rgb(121, 71, 6);
 }
 
-/* .v-ruler{
+.v-ruler{
     border-left: 6px solid rgb(121, 71, 6);
     height: 500px;
-    left:15px;
-    top:20px;
-    float: right;
-} */
+    float:left;
+}
 
-.v-ruler:after {
+/* .v-ruler:after {
     border-left: 6px solid rgb(121, 71, 6);
-    /* background-color: #000; */
-    /* position: absolute; */
+    background-color: #000;
+    position: absolute;
     width: 5px;
     height: 300px;
     top: 10px;
-    left: 50%;
+    left: 12%;
     display: block;
-}
+} */
 
 .content {
     /* margin: 20px; */
@@ -172,9 +170,10 @@ body{
     color:rgb(31, 29, 29);
     font-family :Lato, sans-serif;
     line-height: 180%;
-    background-color: red;
+    /* background-color: red; */
     margin-left: 80px; 
     margin-right: 0px;
+    margin-top: 50px;
     padding: 0px 30px;
     float:right;
     width:78%;
