@@ -147,6 +147,7 @@ body{
         height: 500px;
         float:left;
         margin-left: 1%;
+        margin-top: 40px;
     }
     
     .content {
@@ -168,7 +169,7 @@ body{
     .content h1{
         font-size: 4em;
         color:rgb(121, 71, 6);
-    font-family: "Lato";
+    /* font-family: "Lato"; */
 }
 }
 
