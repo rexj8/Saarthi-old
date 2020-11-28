@@ -119,59 +119,7 @@ body{
     }
 }
   
-.side-bar{
-    /* background-color: blue; */
-    /* width: 180px; */
-    /* position: sticky; */
-    /* z-index: 1; */
-    /* top: 20px; */
-    /* left: 10px; */
-    /* background: #eee; */
-    overflow-x: hidden;
-    padding: 8px 0;
-    float:left;
-    width:18%;
-    margin-top: 70px;
-    padding-left: 20px;
-}
-
-.side-bar a {
-    padding: 6px 8px 6px 42px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #2196F3;
-    display: block;
-    font-family :Lato, sans-serif;
-}
-
-.side-bar a:hover {
-    color: rgb(121, 71, 6);
-}
-
-.v-ruler{
-    border-left: 2px solid rgb(121, 71, 6);
-    height: 500px;
-    float:left;
-    margin-left: 1%;
-}
-
-.content {
-    /* margin: 20px; */
-    /* padding: 50px; */
-    text-align: justify;
-    color:rgb(31, 29, 29);
-    font-family :Lato, sans-serif;
-    line-height: 180%;
-    /* background-color: red; */
-    /* margin-left: 80px;  */
-    margin-right: 0px;
-    margin-top: 50px;
-    padding: 0px 30px;
-    float:right;
-    width:80%;
-}
-
-.content h1{
+@media screen and (max-width:768px) {
     
 }
 
