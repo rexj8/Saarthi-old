@@ -147,7 +147,7 @@ body{
 }
 
 .v-ruler{
-    border-left: 6px solid rgb(121, 71, 6);
+    border-left: 2px solid rgb(121, 71, 6);
     height: 500px;
     float:left;
 }
