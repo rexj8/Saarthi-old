@@ -119,7 +119,7 @@ body{
     }
 }
   
-aside{
+.side{
     background-color: blue;
     float:left;
     width: 10%;
