@@ -223,9 +223,6 @@ ul{
     background:  rgb(90, 90, 90);
 }
 
-iframe{
-    width:"420";
-    height:"345";
-
-    float: both;
+.ytbvdo{
+    float: clear;
 }
