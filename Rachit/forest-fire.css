@@ -120,7 +120,9 @@ body{
 }
   
 aside{
+    background-color: blue;
     float:left;
+    width: 10%;
 }
 
 .v-ruler{
@@ -136,6 +138,8 @@ color:rgb(31, 29, 29);
 font-family :Lato, sans-serif;
 line-height: 180%;
 float:right;
+width: 68%;
+background-color: blue;
 }
 
 ul{
