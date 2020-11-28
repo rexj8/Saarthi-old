@@ -126,7 +126,7 @@ body{
         float:left;
         width:18%;
         margin-top: 70px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         padding-left: 1%;
     }
     
@@ -167,12 +167,13 @@ body{
         padding: 0px 30px;
         float:right;
         width:80%;
+        padding-bottom: 4%;
     }
     
     .content h1{
         font-size: 4em;
         color:rgb(121, 71, 6);
-    /* font-family: "Lato"; */
+        /* font-family: "Lato"; */
     }
 }
 
@@ -202,12 +203,13 @@ body{
         margin-right: 0px;
         margin-top: 50px;
         padding: 0px 30px;
+        padding-bottom: 4%;
     }
     
     .content h1{
         font-size: 2.5em;
         color:rgb(121, 71, 6);
-    /* font-family: "Lato"; */
+        /* font-family: "Lato"; */
     }
 }
 
