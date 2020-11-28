@@ -122,7 +122,7 @@ body{
 .side-bar{
     background-color: blue;
     width: 130px;
-  position: fixed;
+  /* position: sticky; */
   z-index: 1;
   top: 20px;
   left: 10px;
@@ -155,7 +155,7 @@ text-align: justify;
 color:rgb(31, 29, 29);
 font-family :Lato, sans-serif;
 line-height: 180%;
-background-color: red;
+/* background-color: red; */
 margin-left: 150px; 
 padding: 0px 30px;
 }
