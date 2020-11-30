@@ -228,10 +228,10 @@ ul{
     background-color: aqua; */
     /* height:163px; */
     /* width:290px; */
-    height:5vh;
-    width:5vw;
-    margin:2vw;
-    float:right;
+    height:auto;
+    width:28vw;
+    margin:0;
+    /* float:right; */
 }
 
 .ytbvdo li {
@@ -274,7 +274,7 @@ ul{
   
   @media screen and (min-width: 1024px) {
     .ytbvdo li {
-      width: 35%;  
+      width: 33%;  
     }    
     
     .ytbvdo li:nth-of-type(3n+1) {
