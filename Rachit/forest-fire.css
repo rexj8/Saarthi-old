@@ -259,6 +259,7 @@ ul{
     .vdo-header h2{
         font-size: 2.7em;
         margin-left:240px;
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width: 1712px) {
