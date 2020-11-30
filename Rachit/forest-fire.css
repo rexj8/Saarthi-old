@@ -226,8 +226,10 @@ ul{
 .ytbvdo iframe{
     /* border-color: aqua;
     background-color: aqua; */
-    height:163px;
-    width:290px;
+    /* height:163px; */
+    /* width:290px; */
+    height:5vh;
+    width:5vw;
     margin:2vw;
     float:right;
 }
