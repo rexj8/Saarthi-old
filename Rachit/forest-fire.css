@@ -268,13 +268,13 @@ ul{
   @media screen and (min-width: 768px) {
 
     .ytbvdo iframe{
-        height:170px;
-        width:29vw;
-        margin:0px;
+        height:225px;
+        width:45vw;
+        margin:27px;
     }
       
     .ytbvdo li {
-      width: 33.333%;
+      width: 47%;
     }
     
     .ytbvdo li:nth-of-type(2n+1) {
@@ -282,7 +282,7 @@ ul{
     }
     
     .ytbvdo li:nth-of-type(3n+1) {
-      clear: left;
+      /* clear: left; */
     }
   }
   
