@@ -265,6 +265,24 @@ ul{
             clear: left;
         }
     }
+
+    @media screen and (min-width: 444px) {
+        
+        .ytbvdo iframe{
+            height:265px;
+            width:92vw;
+            margin:5px;
+            padding-right: 4px;
+        }
+        
+        .ytbvdo li {
+            width: 51%;
+        }
+        
+        .ytbvdo li:nth-of-type(2n+1) {
+            clear: left;
+        }
+    }
     
     @media screen and (min-width: 570px) {
 
