@@ -254,7 +254,7 @@ ul{
             height:265px;
             width:92vw;
             margin:5px;
-            padding-right: 2px;
+            padding-right: 14px;
         }
         
         .ytbvdo li {
@@ -269,7 +269,7 @@ ul{
     @media screen and (min-width: 444px) {
         
         .ytbvdo iframe{
-            height:265px;
+            height:286px;
             width:92vw;
             margin:5px;
             padding-right: 4px;
