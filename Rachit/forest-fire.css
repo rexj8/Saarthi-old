@@ -251,62 +251,57 @@ ul{
     @media screen and (min-width: 300px) {
         
         .ytbvdo iframe{
-            height:325px;
-            width:28vw;
-            /* margin:45px; */
-            padding-right: 375px;
+            height:360px;
+            width:93vw;
+            margin:5px;
         }
-    
+        
         .ytbvdo li {
-        width: 33%;  
-        }    
-        
-        .ytbvdo li:nth-of-type(3n+1) {
-        clear: none;
+            width: 51%;
         }
         
-        .ytbvdo li:nth-of-type(4n+1) {
-            /* clear: left; */
+        .ytbvdo li:nth-of-type(2n+1) {
+            clear: left;
         }
     }
     
-    @media screen and (min-width: 580px) {
+    @media screen and (min-width: 570px) {
 
-    .ytbvdo iframe{
-        height:360px;
-        width:93vw;
-        margin:5px;
+        .ytbvdo iframe{
+            height:360px;
+            width:93vw;
+            margin:5px;
+        }
+        
+        .ytbvdo li {
+            width: 51%;
+        }
+        
+        .ytbvdo li:nth-of-type(2n+1) {
+            clear: left;
+        }
     }
-    
-    .ytbvdo li {
-        width: 51%;
-    }
-    
-    .ytbvdo li:nth-of-type(2n+1) {
-        clear: left;
-    }
-}
   
   @media screen and (min-width: 768px) {
 
-    .ytbvdo iframe{
-        height:225px;
-        width:45vw;
-        margin:27px;
-    }
-      
-    .ytbvdo li {
-      width: 47%;
-    }
-    
-    .ytbvdo li:nth-of-type(2n+1) {
-      clear: none;
-    }
-    
-    .ytbvdo li:nth-of-type(3n+1) {
-      /* clear: left; */
-    }
-  }
+        .ytbvdo iframe{
+            height:225px;
+            width:45vw;
+            margin:27px;
+        }
+        
+        .ytbvdo li {
+        width: 47%;
+        }
+        
+        .ytbvdo li:nth-of-type(2n+1) {
+        clear: none;
+        }
+        
+        .ytbvdo li:nth-of-type(3n+1) {
+        /* clear: left; */
+        }
+   }
   
   @media screen and (min-width: 1024px) {
     
