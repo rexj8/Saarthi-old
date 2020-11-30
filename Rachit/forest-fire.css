@@ -239,6 +239,12 @@ ul{
     padding-right: 15px;
     box-sizing: border-box;
   }
+
+  .ytbvdo {
+    background: whitesmoke;
+    margin: 0 0 40px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  }
   
   @media screen and (min-width: 400px) {
     .ytbvdo li {
