@@ -272,7 +272,7 @@ ul{
   
   @media screen and (min-width: 1024px) {
     .ytbvdo li {
-      width: 25%;  
+      width: 35%;  
     }    
     
     .ytbvdo li:nth-of-type(3n+1) {
