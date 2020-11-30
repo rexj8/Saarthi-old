@@ -272,8 +272,8 @@ ul{
     
     @media screen and (min-width: 580px) {
 
-        .ytbvdo iframe{
-            height:360px;
+    .ytbvdo iframe{
+        height:360px;
         width:93vw;
         margin:5px;
     }
