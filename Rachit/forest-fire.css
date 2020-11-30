@@ -247,12 +247,14 @@ ul{
     .vdo-header h2{
         font-size: 1.9em;
         margin-left:170px;
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width: 1220px) {
     .vdo-header h2{
         font-size: 2.7em;
         margin-left:207px;
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width: 1550px) {
