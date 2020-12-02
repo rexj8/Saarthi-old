@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to right,rgb(175, 186, 190),rgb(166, 177, 181),rgb(156, 169, 175),rgb(147,160,166));
+    background: linear-gradient(to right,rgb(180,191,195),rgb(172,183,187),rgb(170),rgb());
 }
 
 #banner img{
@@ -19,4 +19,98 @@ body{
     width:100%;
     height:auto;
     top:120px; 
+}
+
+@media screen and (min-width:768px) {
+    .side-bar{
+        overflow-x: hidden;
+        padding: 8px 0;
+        float:left;
+        width:18%;
+        margin-top: 70px;
+        /* margin-bottom: 20px; */
+        padding-left: 1%;
+    }
+    
+    .side-bar a {
+        padding: 6px 8px 6px 42px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #2196F3;
+        display: block;
+        font-family :Lato, sans-serif;
+        font-size: 1.2em;
+    }
+    
+    .side-bar a:hover {
+        color: rgb(121, 71, 6);
+        text-decoration: underline;
+    }
+    
+    .v-ruler{
+        border-left: 2px solid rgb(121, 71, 6);
+        height: 500px;
+        float:left;
+        margin-left: 1%;
+        margin-top: 40px;
+    }
+    
+    .content {
+        /* margin: 20px; */
+        /* padding: 50px; */
+        text-align: justify;
+        color:rgb(31, 29, 29);
+        font-family :Lato, sans-serif;
+        line-height: 180%;
+        /* background-color: red; */
+        /* margin-left: 80px;  */
+        margin-right: 0px;
+        margin-top: 50px;
+        padding: 0px 30px;
+        float:right;
+        width:80%;
+        padding-bottom: 4%;
+    }
+    
+    .content h1{
+        font-size: 4em;
+        color:rgb(121, 71, 6);
+        /* font-family: "Lato"; */
+    }
+}
+
+@media screen and (max-width:767px) {
+    .side-bar{
+        display:none;
+    }
+    
+    .side-bar a {
+        display: none;
+    }
+    
+    .side-bar a:hover {
+        color: rgb(121, 71, 6);
+        text-decoration: underline;
+    }
+    
+    .content {
+        /* margin: 20px; */
+        /* padding: 50px; */
+        text-align: justify;
+        color:rgb(31, 29, 29);
+        font-family :Lato, sans-serif;
+        line-height: 180%;
+        /* background-color: red; */
+        /* margin-left: 80px;  */
+        margin-right: 0px;
+        margin-top: 50px;
+        padding: 0px 30px;
+        padding-bottom: 4%;
+    }
+    
+    .content h1{
+        font-size: 2.5em;
+        color:rgb(121, 71, 6);
+        /* font-family: "Lato"; */
+    }
 }
