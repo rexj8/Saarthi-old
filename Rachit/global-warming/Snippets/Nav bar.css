@@ -11,7 +11,7 @@ nav {
     min-height: 8vh;
     background-color: #5D4954;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right,rgb(235,236,238),rgb(239,241,240),rgb(231,235,234),rgb(230,224,22));
+    background: linear-gradient(to right,rgb(235,236,238),rgb(239,241,240),rgb(231,235,234),rgb(230,224,225));
     /* position:fixed; */
 }
 
