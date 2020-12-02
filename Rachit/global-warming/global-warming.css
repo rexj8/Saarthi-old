@@ -114,3 +114,13 @@ body{
         /* font-family: "Lato"; */
     }
 }
+
+ul{
+    list-style-position: outside;
+}
+
+.ruler{
+    height:1px;
+    border:none;
+    background:  rgb(90, 90, 90);
+}
