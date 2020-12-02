@@ -18,7 +18,7 @@ function myFunction() {
 
             x.style.display = "flex";
             x.style.position = "fixed";
-            x.style.background = "linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192))";
+            x.style.background = "linear-gradient(to right,rgb(235,236,238),rgb(239,241,240),rgb(231,235,234),rgb(230,224,225))";
             x.style.alignContent = "center";
             x.style.justifyContent = "space-around";
             x.style.width = "100%";
