@@ -5,6 +5,7 @@
 }
 
 body{
+    background: linear-gradient(to right,rgb(215, 219, 205),rgb(205, 212, 196),rgb(203, 207, 192),rgb(190, 193, 174));
 }
 
 #banner img{
