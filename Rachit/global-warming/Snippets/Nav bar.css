@@ -18,7 +18,7 @@ nav {
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: rgb(121, 71, 6);
+    color: rgb(19, 170, 145);
     letter-spacing: -4px;
     font-size: 45px;
     font-style: italic;
@@ -26,7 +26,7 @@ nav {
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: rgb(121, 71, 6);
+    color: rgb(19, 170, 145);
     letter-spacing: 5px;
     font-size: 22px;
 }
@@ -42,7 +42,7 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(121, 71, 6);
+    color: rgb(19, 170, 145);
     text-decoration: none;
     letter-spacing: 0px;
     font-weight: bold;
@@ -57,7 +57,7 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: rgb(121, 71, 6);
+    background-color:rgb(19, 170, 145);
     margin: 5px;
     transition:all 0.3s ease;
 }
@@ -129,7 +129,7 @@ nav {
     display: block;
     width: 0;
     height: 2px;
-    background: rgb(121, 71, 6);
+    background: rgb(19, 170, 145);
     transition: width 0.3s;
   }
   .cool-link:hover::after {
@@ -150,7 +150,7 @@ nav {
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: rgb(121, 71, 6);
+    color: rgb(19, 170, 145);
     letter-spacing: -4px;
     font-size: 45px;
     font-style: italic;
@@ -158,7 +158,7 @@ nav {
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: rgb(121, 71, 6);
+    color: rgb(19, 170, 145);
     letter-spacing: 5px;
     font-size: 22px;
 }
