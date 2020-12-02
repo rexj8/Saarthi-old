@@ -5,7 +5,7 @@ nav {
     min-height: 8vh;
     background-color: #5D4954;
     font-family: "Poppins", sans-serif;
-    background: #111111
+    background: black
     /* position:fixed; */
 }
 
@@ -72,7 +72,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 12vh;
-        background: #111111;
+        background: black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -137,7 +137,7 @@ nav {
     justify-content: center;
     min-height: 8vh;
     position:fixed;
-    /* background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192)); */
+   /*  background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192)); */
     z-index:20;
 }
 
