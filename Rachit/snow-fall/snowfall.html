@@ -12,17 +12,11 @@
     <div id="banner"><img id="banner-img" src="bear.jpg" alt="" class="content"></div>
     <div id="snow-fall" class="sidebar"></div>
 
+    <link rel="stylesheet" href="snowfall.css">
+
     <script src="partical.js/particles-snowfall.js"></script>
     <script src="partical.js/app-snowfall.js"></script>
 
-    <script>
-        $(".sidebar").css({'height':($(".content").height()+'px')});
-
-        $(".sidebar").height($(".content").height());
-
-        var highestCol = Math.max($('.sidebar').height(),$('.content').height());
-        $('.sidebar').height(highestCol);
-        
-    </script>
+    <script src="snowfall.js"></script>
 </body>
 </html>
