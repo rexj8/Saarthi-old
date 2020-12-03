@@ -31,6 +31,10 @@ nav {
     font-size: 22px;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-around;
