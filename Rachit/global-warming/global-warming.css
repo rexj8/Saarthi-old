@@ -43,12 +43,12 @@ body{
     }
     
     .side-bar a:hover {
-        color: rgb(121, 71, 6);
+        color: rgb(36,117,138);
         text-decoration: underline;
     }
     
     .v-ruler{
-        border-left: 2px solid rgb(121, 71, 6);
+        border-left: 2px solid rgb(36,117,138);
         height: 500px;
         float:left;
         margin-left: 1%;
