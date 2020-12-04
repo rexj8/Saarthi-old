@@ -1,10 +1,14 @@
 
+let progress = document.getElementById('progressbar');
+let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
 
 
     var x = document.getElementById("sticky_navbar");
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
 
     if (document.body.scrollTop > 54 || document.documentElement.scrollTop > 54) {
         // document.getElementById("sticky_navbar").className = "sticky-navbar-properties";
@@ -37,12 +41,11 @@ const navSlide = () => {
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
-    
 
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''
-                nav.style ='background:black';
+                        nav.style ='background:black';
 
 
             }
