@@ -73,7 +73,7 @@ nav {
         height: 92vh;
         top: 12vh;
         margin: 0%;
-        background:rgba(0, 0, 0, 0);
+        background:black;
         display: flex;
         flex-direction: column;
         align-items: center;
