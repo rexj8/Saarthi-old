@@ -44,10 +44,12 @@ const navSlide = () => {
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
+        nav.style='background:linear-gradient(to right,rgb(235,236,238),rgb(239,241,240),rgb(231,235,234),rgb(230,224,225))';
 
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''
+                nav.style='background:rgba(0,0,0,0)';
             }
             else {
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
