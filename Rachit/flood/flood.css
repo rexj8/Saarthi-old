@@ -14,13 +14,6 @@ body{
     z-index:2;
 }
 
-#snow-fall {
-    position:absolute;
-    width:100%;
-    height:auto;
-    top:120px; 
-}
-
 @media screen and (min-width:768px) {
     .side-bar{
         overflow-x: hidden;
