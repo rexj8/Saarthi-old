@@ -72,17 +72,20 @@ nav {
         right: 0px;
         height: 92vh;
         top: 12vh;
-        background: black;
+        margin: 0%;
+        background:rgba(0, 0, 0, 0);
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(100%);
+        transform: translateX(0%);
+        overflow: hidden;
         transition: transform 0.4s ease-in;
     }
 
     .nav-links li{
         opacity: 0;
+        overflow-x: hidden;
     }
 
     .burger {
@@ -93,6 +96,7 @@ nav {
 .nav-active {
     transform: translateX(0%);
     z-index: 20;
+    overflow-x: hidden;
 }
 
 @keyframes navLinkFade {
