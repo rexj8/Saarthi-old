@@ -82,21 +82,21 @@ nav {
         right: 0px;
         height: 92vh;
         top: 10vh;
-        margin:0%;
+        /* margin:0%; */
         /* background: linear-gradient(to right,rgb(235,236,238),rgb(239,241,240),rgb(231,235,234),rgb(230,224,225)); */
         background: rgba(0, 0, 0, 0);
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(0%);
-        overflow:hidden;
+        transform: translateX(100%);
+        /* overflow:hidden; */
         transition: transform 0.4s ease-in;
     }
 
     .nav-links li{
         opacity: 0;
-        overflow-x:hidden;
+        /* overflow-x:hidden; */
     }
 
     .burger {
@@ -107,7 +107,7 @@ nav {
 .nav-active {
     transform: translateX(0%);
     z-index: 20;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 @keyframes navLinkFade {
