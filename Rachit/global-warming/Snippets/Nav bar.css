@@ -19,6 +19,7 @@ nav {
     display:inline-block;
     font-family: "papyrus";
     color: rgb(19, 170, 145);
+    color: rgb(21, 202, 202);
     letter-spacing: -4px;
     font-size: 45px;
     font-style: italic;
@@ -27,6 +28,7 @@ nav {
     display: inline;
     /* font-family: "papyrus"; */
     color: rgb(19, 170, 145);
+    color: rgb(19, 170, 170);
     letter-spacing: 5px;
     font-size: 22px;
 }
