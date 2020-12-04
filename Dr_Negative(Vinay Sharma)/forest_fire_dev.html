@@ -28,7 +28,7 @@
             text-decoration: none;
         }
 
-        section {
+        /* section {
             padding: 100px;
             color: black;
             background-color: black;
@@ -48,101 +48,307 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-bottom: 10px;
             text-justify: center;
-        }
+        } */
 
         @media screen and (min-width:768px) {
-    .side-bar{
-        overflow-x: hidden;
-        padding: 8px 0;
-        float:left;
-        width:18%;
-        margin-top: 70px;
-        /* margin-bottom: 20px; */
-        padding-left: 1%;
-    }
-    
-    .side-bar a {
-        padding: 6px 8px 6px 42px;
-        text-decoration: none;
-        font-size: 15px;
-        color: #2196F3;
-        display: block;
-        font-family :Lato, sans-serif;
-        font-size: 1.2em;
-    }
-    
-    .side-bar a:hover {
-        color: rgb(36,117,138);
-        text-decoration: underline;
-    }
-    
-    .v-ruler{
-        border-left: 2px solid rgb(36,117,138);
-        height: 500px;
-        float:left;
-        margin-left: 1%;
-        margin-top: 40px;
-    }
-    
-    .content {
-        /* margin: 20px; */
-        /* padding: 50px; */
-        text-align: justify;
-        color:rgb(31, 29, 29);
-        font-family :Lato, sans-serif;
-        line-height: 180%;
-        /* background-color: red; */
-        /* margin-left: 80px;  */
-        margin-right: 0px;
-        margin-top: 50px;
-        padding: 0px 30px;
-        float:right;
-        width:80%;
-        padding-bottom: 4%;
-    }
-    
-    .content h1{
-        font-size: 4em;
-        color:rgb(36,117,138);
-        /* font-family: "Lato"; */
-    }
-}
+            .side-bar {
+                overflow-x: hidden;
+                padding: 8px 0;
+                float: left;
+                width: 18%;
+                margin-top: 70px;
+                /* margin-bottom: 20px; */
+                padding-left: 1%;
+            }
 
-@media screen and (max-width:767px) {
-    .side-bar{
-        display:none;
-    }
-    
-    .side-bar a {
-        display: none;
-    }
-    
-    .side-bar a:hover {
-        color: rgb(36,117,138);
-        text-decoration: underline;
-    }
-    
-    .content {
-        /* margin: 20px; */
-        /* padding: 50px; */
-        text-align: justify;
-        color:rgb(31, 29, 29);
-        font-family :Lato, sans-serif;
-        line-height: 180%;
-        /* background-color: red; */
-        /* margin-left: 80px;  */
-        margin-right: 0px;
-        margin-top: 50px;
-        padding: 0px 30px;
-        padding-bottom: 4%;
-    }
-    
-    .content h1{
-        font-size: 2.5em;
-        color:rgb(36,117,138);
-        /* font-family: "Lato"; */
-    }
-}
+            .side-bar a {
+                padding: 6px 8px 6px 42px;
+                text-decoration: none;
+                font-size: 15px;
+                color: #2196F3;
+                display: block;
+                font-family: Lato, sans-serif;
+                font-size: 1.2em;
+            }
+
+            .side-bar a:hover {
+                color: rgb(36, 117, 138);
+                text-decoration: underline;
+            }
+
+            .v-ruler {
+                border-left: 2px solid rgb(36, 117, 138);
+                height: 500px;
+                float: left;
+                margin-left: 1%;
+                margin-top: 40px;
+            }
+
+            .content {
+                /* margin: 20px; */
+                /* padding: 50px; */
+                text-align: justify;
+                color: rgb(31, 29, 29);
+                font-family: Lato, sans-serif;
+                line-height: 180%;
+                /* background-color: red; */
+                /* margin-left: 80px;  */
+                margin-right: 0px;
+                margin-top: 50px;
+                padding: 0px 30px;
+                float: right;
+                width: 80%;
+                padding-bottom: 4%;
+            }
+
+            .content h1 {
+                font-size: 4em;
+                color: rgb(36, 117, 138);
+                /* font-family: "Lato"; */
+            }
+        }
+
+        @media screen and (max-width:767px) {
+            .side-bar {
+                display: none;
+            }
+
+            .side-bar a {
+                display: none;
+            }
+
+            .side-bar a:hover {
+                color: rgb(36, 117, 138);
+                text-decoration: underline;
+            }
+
+            .content {
+                /* margin: 20px; */
+                /* padding: 50px; */
+                text-align: justify;
+                color: rgb(31, 29, 29);
+                font-family: Lato, sans-serif;
+                line-height: 180%;
+                /* background-color: red; */
+                /* margin-left: 80px;  */
+                margin-right: 0px;
+                margin-top: 50px;
+                padding: 0px 30px;
+                padding-bottom: 4%;
+            }
+
+            .content h1 {
+                font-size: 2.5em;
+                color: rgb(36, 117, 138);
+                /* font-family: "Lato"; */
+            }
+        }
+
+        ul {
+            list-style-position: outside;
+        }
+
+        .ruler {
+            height: 1px;
+            border: none;
+            background: rgb(90, 90, 90);
+        }
+
+        .vdo-header h2 {
+            font-family: Lato, sans-serif;
+            font-weight: 800;
+            color: rgb(36, 117, 138);
+            font-size: 1.9em;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        @media screen and (min-width: 768px) {
+            .vdo-header h2 {
+                font-size: 1.5em;
+                margin-left: 123px;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            .vdo-header h2 {
+                font-size: 1.7em;
+                margin-left: 146px;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .vdo-header h2 {
+                font-size: 1.9em;
+                margin-left: 170px;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (min-width: 1220px) {
+            .vdo-header h2 {
+                font-size: 2.7em;
+                margin-left: 207px;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (min-width: 1550px) {
+            .vdo-header h2 {
+                font-size: 2.7em;
+                margin-left: 240px;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media screen and (min-width: 1712px) {
+            .vdo-header h2 {
+                font-size: 2.7em;
+                margin-left: 315px;
+            }
+        }
+
+        .ytbvdo iframe {
+            /* border-color: aqua;
+    background-color: aqua; */
+            /* height:163px; */
+            /* width:290px; */
+            height: auto;
+            width: 28vw;
+            margin: 0;
+            /* float:right; */
+        }
+
+        .ytbvdo li {
+            list-style-type: none;
+            float: left;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+        }
+
+        .ytbvdo {
+            background: whitesmoke;
+            margin: 0 0 40px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+
+        @media screen and (min-width: 300px) {
+
+            .ytbvdo iframe {
+                height: 215px;
+                width: 92vw;
+                margin: 5px;
+                padding-right: 14px;
+            }
+
+            .ytbvdo li {
+                width: 51%;
+            }
+
+            .ytbvdo li:nth-of-type(2n+1) {
+                clear: left;
+            }
+        }
+
+        @media screen and (min-width: 444px) {
+
+            .ytbvdo iframe {
+                height: 286px;
+                width: 92vw;
+                margin: 5px;
+                padding-right: 4px;
+            }
+
+            .ytbvdo li {
+                width: 51%;
+            }
+
+            .ytbvdo li:nth-of-type(2n+1) {
+                clear: left;
+            }
+        }
+
+        @media screen and (min-width: 570px) {
+
+            .ytbvdo iframe {
+                height: 360px;
+                width: 93vw;
+                margin: 5px;
+            }
+
+            .ytbvdo li {
+                width: 51%;
+            }
+
+            .ytbvdo li:nth-of-type(2n+1) {
+                clear: left;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+
+            .ytbvdo iframe {
+                height: 225px;
+                width: 45vw;
+                margin: 27px;
+            }
+
+            .ytbvdo li {
+                width: 47%;
+            }
+
+            .ytbvdo li:nth-of-type(2n+1) {
+                clear: none;
+            }
+
+            .ytbvdo li:nth-of-type(3n+1) {
+                /* clear: left; */
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+
+            .ytbvdo iframe {
+                height: 264px;
+                width: 31vw;
+                margin: 5px;
+            }
+
+            .ytbvdo li {
+                width: 33%;
+            }
+
+            .ytbvdo li:nth-of-type(3n+1) {
+                clear: none;
+            }
+
+            .ytbvdo li:nth-of-type(4n+1) {
+                /* clear: left; */
+            }
+        }
+
+        @media screen and (min-width: 1712px) {
+
+            .ytbvdo iframe {
+                height: 325px;
+                width: 28vw;
+                margin: 45px;
+            }
+
+            .ytbvdo li {
+                width: 33%;
+            }
+
+            .ytbvdo li:nth-of-type(3n+1) {
+                clear: none;
+            }
+
+            .ytbvdo li:nth-of-type(4n+1) {
+                /* clear: left; */
+            }
+        }
     </style>
     <link rel="stylesheet" href="navigation.css">
 </head>
@@ -187,131 +393,184 @@
 
     <div id="header">
     </div>
-    
-        <div class="v-ruler"></div>
 
-        <div class="content">
-            <h1>Volcanoes</h1>
+    <div class="v-ruler"></div>
+
+    <div class="content">
+        <h1>Volcanoes</h1>
+        <br>
+        <hr class="ruler">
+        <div>
+            <p>A volcano is an opening in the Earth’s crust that allows molten rock, gases, and debris to escape to the
+                surface. Alaska, Hawaii, California, and Oregon have the most active volcanoes, but other states and
+                territories have active volcanoes, too. A volcanic eruption may involve lava and other debris that can
+                flow up to 100 mph, destroying everything in their path. Volcanic ash can travel 100s of miles and cause
+                severe health problems. A volcanic eruption can:</p>
             <br>
-            <hr class="ruler">
-            <div>
-                <p>A volcano is an opening in the Earth’s crust that allows molten rock, gases, and debris to escape to the surface. Alaska, Hawaii, California, and Oregon have the most active volcanoes, but other states and territories have active volcanoes, too. A volcanic eruption may involve lava and other debris that can flow up to 100 mph, destroying everything in their path. Volcanic ash can travel 100s of miles and cause severe health problems. A volcanic eruption can:</p>
-                <br>
-                <ul>
-                    <li>Contaminate water supplies.</li>
-                    <li>Damage machinery.</li>
-                    <li>Reduce visibility through smog and harmful gases that may threaten low-lying areas.</li>
-                    <li>Make it hard to breathe and irritate the skin, eyes, nose, and throat.</li>
-                </ul>
-            </div>
-            <br><br>
-            <h2>IF YOU ARE UNDER A VOLCANO WARNING:</h2>
-            <hr class="ruler">
-            <div>
-                <ul>
-                    <li>Listen for emergency information and alerts.</li>
-                    <li>Follow evacuation or shelter orders. If advised to evacuate, then do so early.</li>
-                    <li>Avoid areas downstream of the eruption.</li>
-                    <li>Protect yourself from falling ash.</li>
-                    <li>Do not drive in heavy ash fall.</li>
-                    <li>Cloth masks help prevent the spread of COVID-19, but they will not adequately protect you from inhaling ash for longer periods of time like a respirator will. Respirators, like an N-95, are not meant to fit children. Due to COVID-19, it may be difficult to find respirators, such as N-95s.</li>
-                    <li>Reduce your ash exposure by doing the following:</li>
-                    <ul>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Limit your time outdoors and use a dust mask or cloth mask as a last resort.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Avoid areas downwind and river valleys downstream of the volcano.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Take temporary shelter from volcanic ash where you are.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Cover ventilation openings and seal doors and windows.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Avoid driving in heavy ash. If you must drive, keep the windows up and do not use the air conditioning system.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Do not get on your roof to remove ash.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>If you have any breathing problems, avoid contact with ash and stay indoors until authorities say it is safe to go outside.</li>
-                    </ul>
-                </ul>
-            </div>
-            <br><br>
-            <h2>Prepare NOW</h2>
-            <hr class="ruler">
-            <div>
-                <ul>
-                    <li>Know your area’s risk from volcanic eruption.</li>
-                    <li>Ask local emergency management for evacuation and shelter plans, and for potential means of protection from ash.</li>
-                    <li>Learn about community warning systems by signing up for a free service called the Volcano Notification Service (VNS) that sends notifications about volcanic activity. Sign up for email updates about coronavirus from the Centers for Disease Control and Prevention (CDC).</li>
-                    <li>Get necessary supplies in advance, including non-perishable foods, cleaning supplies, and water for several days, in case you have to evacuate immediately, or if services are cut off. Keep in mind each person’s specific needs, including medication. Do not forget the needs of pets.</li>
-                    <ul>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>If you are able to, set aside items like soap, hand sanitizer that contains at least 60 percent alcohol, disinfecting wipes, and general household cleaning supplies that you can use to disinfect surfaces you touch regularly. After an explosive eruption, you may not have access to these supplies for days or even weeks.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Being prepared allows you to avoid unnecessary excursions and to address minor medical issues at home, alleviating the burden on urgent care centers and hospitals.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Remember that not everyone can afford to respond by stocking up on necessities. For those who can afford it, making essential purchases and slowly building up supplies in advance will allow for longer time periods between shopping trips. This helps to protect those who are unable to procure essentials in advance of the pandemic and must shop more frequently. In addition, consider avoiding WIC-labeled products so that those who rely on these products can access them.</li>
-                    </ul>
-                    <li>Consult your doctor if you have existing respiratory difficulties.</li>
-                    <li>Practice a communication and evacuation plan with everyone in your family.</li>
-                    <ul>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>If you are advised to evacuate, find several ways to leave the area. Drive the evacuation routes and find shelter locations while following the latest guidelines from the CDC and your state and local authorities to prevent the spread of COVID-19. Have a plan for pets and livestock.</li>
-                    </ul>
-                    <li>Have a shelter-in-place plan if your biggest risk is from ash.</li>
-                    <li>Keep important documents in a safe place. Create password-protected digital copies.</li>
-                    <li>Find out what your homeowner’s insurance policy will cover when a volcano erupts.</li>
-                </ul>
-            </div>
-            <br><br>
-            <h2>Survive DURING</h2>
-            <hr class="ruler">
             <ul>
-                <li>Listen to alerts. The Volcano Notification Service provides up-to-date information about eruptions.</li>
-                <li>Follow evacuation orders from local authorities. Evacuate early.</li>
-                <ul>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Make plans to shelter with friends or family, if that is a feasible and safe option, or to a public shelter. Check with local authorities to determine which public shelters are open.</li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<li>If you must stay at a public shelter or other public facility, take steps to keep yourself and others safe from COVID-19. Wash your hands often, maintain a physical distance of at least six feet between you and people who are not part of your household, and avoid crowds and gathering in groups. When possible, wear a mask. Masks should not be worn by children under two, those who have trouble breathing, and those who are unable to remove them on their own. Avoid touching surfaces and your eyes, nose, and mouth.</li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Review the CDC’s guidelines for “Going to a Public Disaster Shelter During the COVID-19 Pandemic.”</li>
-                </ul>
-                <li>Avoid areas downwind, and river valleys downstream, of the volcano. Rubble and ash will be carried by wind and gravity.</li>
-                <li>Take temporary shelter from volcanic ash where you are if you have enough supplies. Cover ventilation openings and seal doors and windows. Wear a mask and maintain a distance of at least six feet between yourself and those who are not a part of your household to slow the spread of COVID-19.</li>
-                <li>If outside, protect yourself from falling ash that can irritate skin and injure breathing passages, eyes, and open wounds. Use a well-fitting, certified face mask such as an N95. The Centers for Disease Control and Prevention (CDC) has a list of certified masks and the maker’s instructions on how to use the masks. Use a cloth mask to protect yourself for shorter periods of time.</li>
-                <li>Avoid driving in heavy ash fall.</li>
+                <li>Contaminate water supplies.</li>
+                <li>Damage machinery.</li>
+                <li>Reduce visibility through smog and harmful gases that may threaten low-lying areas.</li>
+                <li>Make it hard to breathe and irritate the skin, eyes, nose, and throat.</li>
             </ul>
-            <br><br>
-            <h2>Be Safe AFTER</h2>
-            <hr class="ruler">
-            <div>
-                <p>Listen to authorities to find out when it is safe to return after an eruption.</p>
+        </div>
+        <br><br>
+        <h2>If you are under a Volcano Warning:</h2>
+        <hr class="ruler">
+        <div>
+            <ul>
+                <li>Listen for emergency information and alerts.</li>
+                <li>Follow evacuation or shelter orders. If advised to evacuate, then do so early.</li>
+                <li>Avoid areas downstream of the eruption.</li>
+                <li>Protect yourself from falling ash.</li>
+                <li>Do not drive in heavy ash fall.</li>
+                <li>Cloth masks help prevent the spread of COVID-19, but they will not adequately protect you from
+                    inhaling ash for longer periods of time like a respirator will. Respirators, like an N-95, are not
+                    meant to fit children. Due to COVID-19, it may be difficult to find respirators, such as N-95s.</li>
+                <li>Reduce your ash exposure by doing the following:</li>
                 <ul>
-                    <li>Send text messages or use social media to reach out to family and friends. Phone systems are often busy after a disaster. Only make emergency calls.</li>
-                    <li>Avoid driving in heavy ash. Driving will stir up volcanic ash that can clog engines and stall vehicles.</li>
-                    <li>If you have any breathing problems, avoid contact with ash. Stay indoors until authorities say it is safe to go outside.</li>
-                    <li>Do not get on your roof to remove ash unless you have guidance or training. If you have to remove ash, then be very careful as ash makes surfaces slippery. Be careful not to contribute additional weight to an overloaded roof.</li>
-                    <ul>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>When cleaning, wear protective clothing, use appropriate face coverings or masks, and maintain a physical distance of at least six feet while working with someone else. Poor air quality can worsen asthma symptoms. People with asthma and/or other lung conditions should take precaution in areas with poor air quality.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Children should not help with cleanup efforts.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Continue taking steps to protect yourself from COVID-19 and other infectious diseases, by washing your hands often and cleaning commonly touched surfaces.</li>
-                        &nbsp;&nbsp;&nbsp;&nbsp;<li>Engage virtually with your community through video and phone calls. Know that it’s normal to feel anxious or stressed. Take care of your body and talk to someone if you are feeling upset. Many people may already feel fear and anxiety about the coronavirus 2019 (COVID-19). Follow CDC guidance for managing stress during a traumatic event and managing stress during COVID-19</li>
-                    </ul>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Limit your time outdoors and use a dust mask or cloth mask as a last
+                        resort.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Avoid areas downwind and river valleys downstream of the volcano.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Take temporary shelter from volcanic ash where you are.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Cover ventilation openings and seal doors and windows.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Avoid driving in heavy ash. If you must drive, keep the windows up and
+                        do not use the air conditioning system.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Do not get on your roof to remove ash.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>If you have any breathing problems, avoid contact with ash and stay
+                        indoors until authorities say it is safe to go outside.</li>
                 </ul>
-            </div>
+            </ul>
         </div>
+        <br><br>
+        <h2>Prepare NOW</h2>
+        <hr class="ruler">
+        <div>
+            <ul>
+                <li>Know your area’s risk from volcanic eruption.</li>
+                <li>Ask local emergency management for evacuation and shelter plans, and for potential means of
+                    protection from ash.</li>
+                <li>Learn about community warning systems by signing up for a free service called the Volcano
+                    Notification Service (VNS) that sends notifications about volcanic activity. Sign up for email
+                    updates about coronavirus from the Centers for Disease Control and Prevention (CDC).</li>
+                <li>Get necessary supplies in advance, including non-perishable foods, cleaning supplies, and water for
+                    several days, in case you have to evacuate immediately, or if services are cut off. Keep in mind
+                    each person’s specific needs, including medication. Do not forget the needs of pets.</li>
+                <ul>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>If you are able to, set aside items like soap, hand sanitizer that
+                        contains at least 60 percent alcohol, disinfecting wipes, and general household cleaning
+                        supplies that you can use to disinfect surfaces you touch regularly. After an explosive
+                        eruption, you may not have access to these supplies for days or even weeks.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Being prepared allows you to avoid unnecessary excursions and to address
+                        minor medical issues at home, alleviating the burden on urgent care centers and hospitals.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Remember that not everyone can afford to respond by stocking up on
+                        necessities. For those who can afford it, making essential purchases and slowly building up
+                        supplies in advance will allow for longer time periods between shopping trips. This helps to
+                        protect those who are unable to procure essentials in advance of the pandemic and must shop more
+                        frequently. In addition, consider avoiding WIC-labeled products so that those who rely on these
+                        products can access them.</li>
+                </ul>
+                <li>Consult your doctor if you have existing respiratory difficulties.</li>
+                <li>Practice a communication and evacuation plan with everyone in your family.</li>
+                <ul>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>If you are advised to evacuate, find several ways to leave the area.
+                        Drive the evacuation routes and find shelter locations while following the latest guidelines
+                        from the CDC and your state and local authorities to prevent the spread of COVID-19. Have a plan
+                        for pets and livestock.</li>
+                </ul>
+                <li>Have a shelter-in-place plan if your biggest risk is from ash.</li>
+                <li>Keep important documents in a safe place. Create password-protected digital copies.</li>
+                <li>Find out what your homeowner’s insurance policy will cover when a volcano erupts.</li>
+            </ul>
+        </div>
+        <br><br>
+        <h2>Survive DURING</h2>
+        <hr class="ruler">
+        <ul>
+            <li>Listen to alerts. The Volcano Notification Service provides up-to-date information about eruptions.</li>
+            <li>Follow evacuation orders from local authorities. Evacuate early.</li>
+            <ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;<li>Make plans to shelter with friends or family, if that is a feasible and safe
+                    option, or to a public shelter. Check with local authorities to determine which public shelters are
+                    open.</li>
+                &nbsp;&nbsp;&nbsp;&nbsp;<li>If you must stay at a public shelter or other public facility, take steps to
+                    keep yourself and others safe from COVID-19. Wash your hands often, maintain a physical distance of
+                    at least six feet between you and people who are not part of your household, and avoid crowds and
+                    gathering in groups. When possible, wear a mask. Masks should not be worn by children under two,
+                    those who have trouble breathing, and those who are unable to remove them on their own. Avoid
+                    touching surfaces and your eyes, nose, and mouth.</li>
+                &nbsp;&nbsp;&nbsp;&nbsp;<li>Review the CDC’s guidelines for “Going to a Public Disaster Shelter During
+                    the COVID-19 Pandemic.”</li>
+            </ul>
+            <li>Avoid areas downwind, and river valleys downstream, of the volcano. Rubble and ash will be carried by
+                wind and gravity.</li>
+            <li>Take temporary shelter from volcanic ash where you are if you have enough supplies. Cover ventilation
+                openings and seal doors and windows. Wear a mask and maintain a distance of at least six feet between
+                yourself and those who are not a part of your household to slow the spread of COVID-19.</li>
+            <li>If outside, protect yourself from falling ash that can irritate skin and injure breathing passages,
+                eyes, and open wounds. Use a well-fitting, certified face mask such as an N95. The Centers for Disease
+                Control and Prevention (CDC) has a list of certified masks and the maker’s instructions on how to use
+                the masks. Use a cloth mask to protect yourself for shorter periods of time.</li>
+            <li>Avoid driving in heavy ash fall.</li>
+        </ul>
+        <br><br>
+        <h2>Be Safe AFTER</h2>
+        <hr class="ruler">
+        <div>
+            <p>Listen to authorities to find out when it is safe to return after an eruption.</p>
+            <ul>
+                <li>Send text messages or use social media to reach out to family and friends. Phone systems are often
+                    busy after a disaster. Only make emergency calls.</li>
+                <li>Avoid driving in heavy ash. Driving will stir up volcanic ash that can clog engines and stall
+                    vehicles.</li>
+                <li>If you have any breathing problems, avoid contact with ash. Stay indoors until authorities say it is
+                    safe to go outside.</li>
+                <li>Do not get on your roof to remove ash unless you have guidance or training. If you have to remove
+                    ash, then be very careful as ash makes surfaces slippery. Be careful not to contribute additional
+                    weight to an overloaded roof.</li>
+                <ul>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>When cleaning, wear protective clothing, use appropriate face coverings
+                        or masks, and maintain a physical distance of at least six feet while working with someone else.
+                        Poor air quality can worsen asthma symptoms. People with asthma and/or other lung conditions
+                        should take precaution in areas with poor air quality.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Children should not help with cleanup efforts.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Continue taking steps to protect yourself from COVID-19 and other
+                        infectious diseases, by washing your hands often and cleaning commonly touched surfaces.</li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<li>Engage virtually with your community through video and phone calls. Know
+                        that it’s normal to feel anxious or stressed. Take care of your body and talk to someone if you
+                        are feeling upset. Many people may already feel fear and anxiety about the coronavirus 2019
+                        (COVID-19). Follow CDC guidance for managing stress during a traumatic event and managing stress
+                        during COVID-19</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
 
-        <div class="vdo-header" id="internal-bookmark-forestfire">
-            <h2>How to stop Global Warming :-</h2>
-        </div>
+    <div class="vdo-header" id="internal-bookmark-forestfire">
+        <h2>How to stop Global Warming :-</h2>
+    </div>
 
-        <div class="ytbvdo">
-            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/vddc0eWFDVs" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></li>
-            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/a1zaiF4GieI" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></li>
-            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/mNf2bvdTqV4" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></li>
-            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/cedhb6zvy_4" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></li>
-            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/hlvUKI_QBFc" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></li>
-            <li><iframe width="560" height="315" src="https://www.youtube.com/embed/We2nYvdjpKk" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></li>
-        </div>
-    
+    <div class="ytbvdo">
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/vddc0eWFDVs" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></li>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/a1zaiF4GieI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></li>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/mNf2bvdTqV4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></li>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/cedhb6zvy_4" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></li>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/hlvUKI_QBFc" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></li>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/We2nYvdjpKk" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></li>
+    </div>
+
 
 
     <script>
