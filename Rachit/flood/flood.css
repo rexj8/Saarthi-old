@@ -8,15 +8,15 @@ body{
     background: white;
 }
 
+#banner .container h3{
+    font-family: roboto, sans-serif
+}
+
 #banner img{
     width: 35%;
     height: auto;
     z-index:2;
     display:block;
-}
-
-#banner .container h3{
-    
 }
 
 @media screen and (min-width:768px) {
