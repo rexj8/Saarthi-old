@@ -5,13 +5,14 @@
 }
 
 body{
-    background: linear-gradient(to right,rgb(180,191,195),rgb(172,183,187),rgb(168,182,182),rgb(152,165,171));
+    background: white;
 }
 
 #banner img{
-    width: 100%;
+    width: 35%;
     height: auto;
     z-index:2;
+    display:block;
 }
 
 @media screen and (min-width:768px) {
@@ -29,19 +30,19 @@ body{
         padding: 6px 8px 6px 42px;
         text-decoration: none;
         font-size: 15px;
-        color: #2196F3;
+        color: #8b4b0e;
         display: block;
         font-family :Lato, sans-serif;
         font-size: 1.2em;
     }
     
     .side-bar a:hover {
-        color: rgb(36,117,138);
+        color:#6d3600;
         text-decoration: underline;
     }
     
     .v-ruler{
-        border-left: 2px solid rgb(36,117,138);
+        border-left: 2px solid #8b4b0e;
         height: 500px;
         float:left;
         margin-left: 1%;
@@ -67,7 +68,7 @@ body{
     
     .content h1{
         font-size: 4em;
-        color:rgb(36,117,138);
+        color:#8b4b0e;
         /* font-family: "Lato"; */
     }
 }
@@ -103,7 +104,7 @@ body{
     
     .content h1{
         font-size: 2.5em;
-        color:rgb(36,117,138);
+        color: #8b4b0e;
         line-height: 40px;
         /* font-family: "Lato"; */
     }
