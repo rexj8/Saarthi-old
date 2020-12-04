@@ -37,11 +37,13 @@ const navSlide = () => {
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
-        navLinks.style='color:black';
+    
 
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''
+                nav.style ='background:black';
+
 
             }
             else {
