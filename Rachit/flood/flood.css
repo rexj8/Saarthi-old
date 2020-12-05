@@ -21,6 +21,7 @@ body{
     height: auto;
     z-index:2;
     display:block;
+    float: right;
     right:10px;
 }
 
