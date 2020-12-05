@@ -43,7 +43,7 @@ const navSlide = () => {
 
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
-        nav.style='background:linear-gradient(to bottom,rgb(227,231,232),rgb(160,173,179))';
+        nav.style='    background: linear-gradient(to right,rgb(179,144,104),rgb(204,175,133),rgb(215,182,147))';
 
         navLinks.forEach((link, index) => {
             if (link.style.animation) {

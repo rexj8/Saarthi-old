@@ -63,7 +63,7 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color:rgb(19, 170, 145);
+    background-color:rgb(105, 69, 2);
     margin: 5px;
     transition:all 0.3s ease;
 }

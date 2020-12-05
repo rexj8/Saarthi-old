@@ -53,14 +53,14 @@ body{
         padding: 6px 8px 6px 42px;
         text-decoration: none;
         font-size: 15px;
-        color: #8b4b0e;
+        color: #a5703f;
         display: block;
         font-family :Lato, sans-serif;
         font-size: 1.2em;
     }
     
     .side-bar a:hover {
-        color:#472503;
+        color:#6b3805;
         text-decoration: underline;
     }
     
