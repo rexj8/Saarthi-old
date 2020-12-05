@@ -33,6 +33,7 @@ body{
     /* height:auto; */
     background: url(../img/flood.jpg) no-repeat;
     /*:url('C:/Users/Lenovo/Downloads/mutia-rahmah-46O3UMbUn-E-unsplash.jpg');*/
+    background-color: rgb(204,175,133);
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
