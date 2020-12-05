@@ -86,7 +86,7 @@ nav {
         top: 10vh;
         margin:0%;
         /* background: linear-gradient(to right,rgb(235,236,238),rgb(239,241,240),rgb(231,235,234),rgb(230,224,225)); */
-        background: rgba(0, 0, 0, 0);
+        background: black;
         display: flex;
         flex-direction: column;
         align-items: center;
