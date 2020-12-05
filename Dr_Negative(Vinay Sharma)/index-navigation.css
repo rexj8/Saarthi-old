@@ -18,7 +18,7 @@ nav {
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: rgb(105, 69, 2);
+    color: white;
     /* color: rgb(21, 202, 202); */
     letter-spacing: -4px;
     font-size: 45px;
@@ -27,7 +27,7 @@ nav {
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: rgb(105, 69, 2);
+    color: white;
     /* color: rgb(19, 170, 170); */
     letter-spacing: 5px;
     font-size: 22px;
@@ -161,7 +161,7 @@ nav {
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: rgb(105, 69, 2);
+    color: white;
     letter-spacing: -4px;
     font-size: 45px;
     font-style: italic;
@@ -169,7 +169,7 @@ nav {
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: rgb(105, 69, 2);
+    color: white;
     letter-spacing: 5px;
     font-size: 22px;
 }
