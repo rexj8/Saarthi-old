@@ -20,9 +20,10 @@ body{
     width: 35%;
     height: auto;
     z-index:2;
-    display:block;
-    float: right;
-    right:10px;
+    display:inline;
+    float: both;
+    position: relative;
+    right:0px;
 }
 
 @media screen and (min-width:768px) {
