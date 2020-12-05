@@ -7,7 +7,81 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="Stories.css">
     <link rel="stylesheet" href="navigation.css">
+    <style>
+        footer{
+            
+
+            background: #111111;
+            height: auto;
+            width: 100vw;
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            padding-top: 40px;
+           
+        }
+        .footer-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-content h1{
+            font-size: 2.6rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 3rem;
+           
+
+        }
+        .footer-content p{
+            max-width: 500px;
+            margin: 10px  auto;
+            line-height: 28px;
+
+            font-size: 14px;
+        }
+        .socials{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0 3rem 0;
+        }
+        .socials li{
+            margin: 0 10px;
+        }
+        .socials a{
+          color: #fff;
+        }
+        .socials a i{
+            font-size: 1.1rem;
+            transition:  color .4s ease;
+        }
+
+        .socials a:hover{
+            color: aqua;
+        }
+        .footer-bottom{
+            background: #000;
+            width: 100vw;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-bottom p{
+            font-size: 14px;
+            word-spacing: 2px;
+            text-transform: capitalize;
+        }
+        .footer-content span{
+            text-transform: uppercase;
+            opacity: .4;
+            color: aqua;
+            font-weight: 200;
+        }
+    </style>
 </head>
+
 
 <body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -32,24 +106,31 @@
       <div class="line3"></div>
   </div>
 </nav>
+<div id="sticky_navbar">
+  <div class="logo">
+      <h4 class="s">S</h4>
+      <h4 class="a">AARTHI</h4>
+  </div>
+</div>
+<script src="stories.js"></script>
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" ><img src='images/lava.jpg' alt="">
+      <div class="swiper-slide" > <a href="Aboutus.html"><img src='lava.jpg' alt=""></a>
       </div>
-      <div class="swiper-slide"><img src='images/tyfoon.jpg' alt="">
+      <div class="swiper-slide"><a href="#"><img src='images/tyfoon.jpg' alt=""></a>
       </div>
-      <div class="swiper-slide"><img src='images/volcano.jpg' alt="">
+      <div class="swiper-slide"><a href="#"><img src='images/volcano.jpg' alt=""></a>
       </div>
-      <div class="swiper-slide"><img src='images/overwater.jpg' alt="">
+      <div class="swiper-slide"><a href="#"> <img src='images/overwater.jpg' alt=""></a>
       </div>
-      <div class="swiper-slide"><img src='images/watercyclone.jpg' alt="">
+      <div class="swiper-slide"><a href="#"><img src='images/watercyclone.jpg' alt=""></a>
       </div>
-      <div class="swiper-slide"><img src='images/dry.jpg' alt="">
+      <div class="swiper-slide"><a href="#"> <img src='images/dry.jpg' alt=""></a>
       </div>
-      <div class="swiper-slide"><img src='images/forestfire2.jpg'  alt="">
+      <div class="swiper-slide"><a href="#"><img src='images/forestfire2.jpg' alt=""></a>
       </div>
-      <div class="swiper-slide"><img src='images/earthquake.jpg' alt="">
+      <div class="swiper-slide"><a href="#"><img src='images/earthquake.jpg' alt=""></a>
       </div>
 
     </div>
@@ -58,7 +139,6 @@
 </div>
 
   <!-- Swiper JS -->
-  <script src="../package/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
@@ -82,5 +162,25 @@
      
     });
   </script>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <footer>
+        <div class="footer-content">
+            <h1>Saarthi</h1>
+            <p>Saarthi A helping Hand in Natural Disasters  </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li></ul>
+        </div>
+        <div class="footer-bottom">
+            <p> copyright &copy;2020 Saarthi Design By <span>Dr_negative,rexj8,yash mathur</span></p>
+        </div>
+    </footer>
 </body>
 </html>
