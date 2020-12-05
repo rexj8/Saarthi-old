@@ -13,7 +13,7 @@ nav {
     display:inline-block;
     font-family: "papyrus";
     color: #ffffff;
-    letter-spacing: -4px;
+    /* letter-spacing: -4px; */
     font-size: 45px;
     font-style: italic;
 }
@@ -150,7 +150,7 @@ nav {
     display:inline-block;
     font-family: "papyrus";
     color: #ffffff;
-    letter-spacing: -4px;
+    /* letter-spacing: -4px; */
     font-size: 45px;
     font-style: italic;
 }
