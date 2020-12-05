@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 25px;
+            color: black;
+            font-family: 'Quicksand', sans-serif;
+            background-color: black;
+
+        }
+        .maincontent{
+            color: #111111;
+            background-color: #111111;
+            min-height: 90vh;
+            border: white 2px solid;
+            border-radius: 25px;
+        }
+        .title{
+            color: white;
+            text-align: center;
+            font-size: 2.6em;
+            justify-content: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .name{
+            justify-content: center;
+            text-align: center;
+                   }
+        input{
+            position: relative;
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            padding: 10px 20px;
+            width: 60%;
+            outline: none;
+            color: white;
+            border-bottom: grey 2px solid;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 25px;
+
+        }
+        .button{
+            margin-top: 20px;
+
+            text-align: center;
+            justify-content: center;
+        }
+        a{
+            border-radius: 10px;
+            padding: 15px 30px;
+            color: #2196f3;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-decoration: none;
+            overflow: hidden;
+            transition: 0.2s;
+
+        }
+        a:hover{
+            color: #255784;
+            background: #2196f3;
+            box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 8s0px #2196f3;
+            transition-delay: 0.5s;
+        }
+        footer{
+            margin-top: 20px;
+            background: #111111;
+            height: auto;
+            width: 100%  ;
+            color: white;
+            font-family: 'Quicksand', sans-serif;
+            padding-top: 40px;
+           
+        }
+        .footer-content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-content h1{
+            font-size: 2.6rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 3rem;
+           
+
+        }
+        .footer-content p{
+            max-width: 500px;
+            margin: 10px  auto;
+            line-height: 28px;
+
+            font-size: 14px;
+        }
+        .socials{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0 3rem 0;
+        }
+        .socials li{
+            margin: 0 0;
+        }
+        .socials a{
+          color: #fff;
+        }
+        .socials a i{
+            font-size: 0.8rem;
+            transition:  color .4s ease;
+        }
+
+        .socials a:hover{
+            color: aqua;
+        }
+        .footer-bottom{
+            background: #000;
+            width: 100vw;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-bottom p{
+            font-size: 14px;
+            word-spacing: 2px;
+            text-transform: capitalize;
+        }
+        .footer-content span{
+            text-transform: uppercase;
+            opacity: .4;
+            color: aqua;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <div class="maincontent">
+        <div class="title">Donate</div>
+        <div class="name"><input type="text" placeholder="Enter Your Name..."></div>
+        <div class="name"><input type="email" placeholder="Enter Your Email..."></div>
+        <div class="name"><input type="number" placeholder="Enter Donation Amount.."></div>
+        <div class="button"><a href=""> Submit</a></div>
+
+    </div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <footer>
+        <div class="footer-content">
+            <h1>Saarthi</h1>
+            <p>Saarthi A helping Hand in Natural Disasters </p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li></ul>
+        </div>
+        <div class="footer-bottom">
+            <p> copyright &copy;2020 Saarthi Design By <span>Dr_negative,rexj8,yash mathur</span></p>
+        </div>
+    </footer>
+</body>
+</html>
