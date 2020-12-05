@@ -9,16 +9,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5D4954;
+    background-color: #be6f14;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right,rgb(235,236,238),rgb(239,241,240),rgb(231,235,234),rgb(230,224,225));
+    background: linear-gradient(to right,rgb(179,144,104),rgb(204,175,133),rgb(215,182,147));
     /* position:fixed; */
 }
 
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: rgb(19, 170, 145);
+    color: rgb(105, 69, 2);
     /* color: rgb(21, 202, 202); */
     letter-spacing: -4px;
     font-size: 45px;
@@ -27,7 +27,7 @@ nav {
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: rgb(19, 170, 145);
+    color: rgb(105, 69, 2);
     /* color: rgb(19, 170, 170); */
     letter-spacing: 5px;
     font-size: 22px;
@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(19, 170, 145);
+    color: rgb(105, 69, 2);
     text-decoration: none;
     letter-spacing: 0px;
     font-weight: bold;
@@ -161,7 +161,7 @@ nav {
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: rgb(19, 170, 145);
+    color: rgb(105, 69, 2);
     letter-spacing: -4px;
     font-size: 45px;
     font-style: italic;
@@ -169,7 +169,7 @@ nav {
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: rgb(19, 170, 145);
+    color: rgb(105, 69, 2);
     letter-spacing: 5px;
     font-size: 22px;
 }
