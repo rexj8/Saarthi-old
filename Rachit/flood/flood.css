@@ -8,6 +8,10 @@ body{
     background: white;
 }
 
+#banner {
+    border: 3px solid red;
+}
+
 #banner .container h3{
     font-family: roboto, sans-serif
 }
@@ -17,6 +21,7 @@ body{
     height: auto;
     z-index:2;
     display:block;
+    right:10px;
 }
 
 @media screen and (min-width:768px) {
