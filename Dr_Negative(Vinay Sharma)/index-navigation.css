@@ -12,15 +12,15 @@ nav {
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: #ffffff;
-    /* letter-spacing: -4px; */
+    color: #fff;
+    letter-spacing: -4px;
     font-size: 45px;
     font-style: italic;
 }
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: #ffffff;
+    color: #fff;
     letter-spacing: 5px;
     font-size: 22px;
 }
@@ -143,20 +143,4 @@ nav {
     position:fixed;
    /*  background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192)); */
     z-index:20;
-}
-
-.logo .s{
-    display:inline-block;
-    font-family: "papyrus";
-    color: #ffffff;
-    /* letter-spacing: -4px; */
-    font-size: 45px;
-    font-style: italic;
-}
-.logo .a{
-    display: inline;
-    /* font-family: "papyrus"; */
-    color: #ffffff;
-    letter-spacing: 5px;
-    font-size: 22px;
 }
