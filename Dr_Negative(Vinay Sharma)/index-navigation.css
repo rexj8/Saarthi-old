@@ -11,7 +11,7 @@ nav {
     min-height: 8vh;
     background-color: black;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right,rgb(179,144,104),rgb(204,175,133),rgb(215,182,147));
+    background: black;
     /* position:fixed; */
 }
 
@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(105, 69, 2);
+    color: white;
     text-decoration: none;
     letter-spacing: 0px;
     font-weight: bold;
@@ -63,7 +63,7 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background-color:rgb(105, 69, 2);
+    background-color:white;
     margin: 5px;
     transition:all 0.3s ease;
 }
@@ -140,7 +140,7 @@ nav {
     display: block;
     width: 0;
     height: 2px;
-    background: rgb(19, 170, 145);
+    background: rgb(19, 165, 170);
     transition: width 0.3s;
   }
   .cool-link:hover::after {
